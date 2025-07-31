@@ -1,0 +1,130 @@
+body {
+
+    background-color:  #F0D1D4;  
+}
+
+
+/* === Navbar Styling === */
+.navbar {
+    background-color: #F0D1D4;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.navbar-brand {
+    color: #5c3a3a !important;
+    font-weight: bold;
+    font-size: 1.4rem;
+    letter-spacing: 0.5px;
+}
+
+.nav-link {
+    color: #5c3a3a !important;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: 0.5rem 1rem;
+    transition: all 0.2s ease-in-out;
+}
+
+.nav-link:hover {
+    color: #d14a7d !important;
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 6px;
+}
+
+.dropdown-menu {
+    background-color: #fff0f5;
+    border: none;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    margin-top: 0.3rem;
+}
+
+.dropdown-item {
+    color: #5c3a3a;
+    font-size: 0.95rem;
+    padding: 0.5rem 1.2rem;
+}
+
+.dropdown-item:hover {
+    background-color: #fddde6;
+    color: #c1456c;
+}
+
+
+
+/* === Dropdown on hover for desktop === */
+@media (min-width: 992px) {
+    .dropdown:hover .dropdown-menu {
+        display: block;
+    }
+/* HERO */
+.works-hero {
+    text-align: center;
+    background: Dimgray; /* Slightly darker for contrast */
+    color: white;
+    padding: 50px 10px;
+    font-family: 'Playfair Display', serif;
+}
+
+.works-hero h1 {
+    font-size: 60px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+.works-hero p {
+    font-size: 40px;
+}
+body {
+  background-color: # #F0D1D4;
+  font-family: 'Arial', sans-serif;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #4a4a4a;
+  margin-bottom: 10px;
+}
+
+.main-site-img {
+  max-height: 400px;
+  border: 5px solid #000;
+  border-radius: 10px;
+   display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.custom-card {
+  background-color: #fff0f5;
+  border: 2px dashed #c2185b;
+  padding: 15px;
+  border-radius: 12px;
+  box-shadow: 3px 3px 5px rgba(0,0,0,0.1);
+}
+
+.card-title {
+  color: #c2185b;
+  font-weight: bold;
+}
+
+.small-img {
+  max-height: 120px;
+  border: 2px solid #000;
+  border-radius: 8px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+
+}
+
+
+blockquote {
+  font-style: italic;
+  color: #666;
+  font-size: 0.9rem;
+  margin-top: 10px;
+}

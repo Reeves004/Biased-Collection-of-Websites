@@ -1,0 +1,79 @@
+
+
+/* === Navbar Container === */
+.navbar {
+    background-color: #fbeaec;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* === Force Navbar to Stay Horizontal === */
+.navbar-expand-lg .navbar-nav {
+    display: flex !important;
+    flex-direction: row !important;
+    flex-wrap: nowrap !important;
+    white-space: nowrap !important;
+    padding-left: 0;
+    margin-left: 0;
+}
+
+/* Navbar Items */
+
+
+.navbar-brand {
+    color: #5c3a3a !important;
+    font-weight: bold;
+    font-size: 1.4rem;
+    letter-spacing: 0.5px;
+}
+
+.nav-link {
+    color: #5c3a3a !important;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: 0.5rem 1rem;
+    transition: all 0.2s ease-in-out;
+}
+
+.nav-link:hover {
+    color: #d14a7d !important;
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 6px;
+}
+
+/* Dropdown Menus */
+.dropdown-menu {
+    background-color: #fff0f5;
+    border: none;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    margin-top: 0.3rem;
+    position: absolute;
+}
+
+.dropdown-item {
+    color: #5c3a3a;
+    font-size: 0.95rem;
+    padding: 0.5rem 1.2rem;
+}
+
+.dropdown-item:hover {
+    background-color: #fddde6;
+    color: #c1456c;
+}
+
+/* Right-align last dropdown */
+.nav-item.dropdown:last-child .dropdown-menu {
+    right: 0;
+    left: 0;
+}
+
+/* === Dropdown on hover for desktop === */
+@media (min-width: 992px) {
+    .dropdown:hover .dropdown-menu {
+        display: block;
+    }
+    
+    /* Extra insurance for navbar items */
+    .navbar-nav {
+        gap: 0.5rem; /* Adds consistent spacing */
+    }
+}
